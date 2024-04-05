@@ -1,0 +1,3230 @@
+
+/* Global styles */
+html { overflow-x: hidden; }
+
+/* Body styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 1.8em;
+    overflow-x: hidden;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Text styles for various elements */
+p, span, em, a, h5, address { color: #848586; }
+h2, p {
+    margin-top: 0;
+}
+
+/* Link styles */
+a:hover, a.active { color: #309AFD; }
+
+/* Navbar styles */
+.navbar {
+    height: 70px;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.navbar h1 {
+    float: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0px;
+}
+
+/* Button styles */
+.Ocean-vibes-btn {
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+button.Ocean-vibes-btn {
+    padding: 15px 40px;
+}
+
+.Ocean-vibes-btn:hover {
+    color: white;
+    background-color: #49b4e9;
+}
+
+/* Typography styles */
+h1 { font-size: 3rem; }
+em { display: block; }
+
+/* Miscellaneous styles */
+div { box-sizing: border-box; }
+.Cheetha-page-title { font-size: 30px; }
+
+/* Spacing utility classes */
+.Cheetha-mt-35 { margin-top: 0px; }
+.Ocean-vibes-mb-0 { margin-bottom: 10; }
+.Cheetha-mb-15 { margin-bottom: 15px; }
+.Cheetha-mb-30 { margin-bottom: 30px; }
+.Cheetha-mb-40 { margin-bottom: 20px; }
+.Ocean-vibes-mb-50 { margin-bottom: 50px; }
+.Ocean-vibes-mb-80 { margin-bottom: 80px; }
+
+/* Text alignment utility classes */
+.Ocean-vibes-text-center { text-align: center; }
+.Ocean-vibes-text-right { text-align: right; }
+
+/* Background color utility classes */
+.Ocean-vibes-bg-white { background-color: #FFF; }
+.Ocean-vibes-bg-gray { background-color: #ffffff; }
+
+/* Blockquote styles */
+blockquote { margin: 0 0 30px 10px; }
+
+/* Image styles */
+img { max-width: 100%; }
+
+/* Additional styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Main container styles */
+.main {
+    margin-top: 0;
+}
+
+/* Link transition effect */
+a { 
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+/* Additional utility class */
+.Cheetha-mt-0 {
+    margin-top: 0; 
+    margin-bottom: 1;
+    padding: auto;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 120px;
+}
+
+
+
+
+
+/* Default styles for the header */
+.Cheetha-site-header {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    height: 100px;
+    padding-top: 0%;
+    padding-bottom: 4%;
+    border: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cheetha-mt-0,
+.Cheetha-mb-15 {
+    text-align: center;
+}
+
+/* Styles for the OCEAN text */
+.Cheetha-color-primary {
+    color: white;
+    text-shadow: 0px 4px 4px #28282871;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the Vibes text */
+.Ocean-vibes-color-gray-2 {
+    text-shadow: 0px 4px 4px #282828;
+    -webkit-text-stroke: 1px #ffffff;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .Cheetha-site-header {
+        height: 100px;  
+        border: 2px solid rgb(0, 0, 0); 
+    }
+
+    .Cheetha-mt-0,
+    .Cheetha-mb-15 {
+        text-align: center;
+    }
+
+    .Cheetha-color-primary {
+        font-size: 25px;
+        display: inline-block;
+        padding-bottom: 15px;
+        font-weight: bold;
+        -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+        text-shadow: 0px 4px 4px #1919197a;
+    }
+
+    .Ocean-vibes-color-gray-2 {
+         margin-top: 0%;
+}
+
+}
+
+/* Default styles for the text-box */
+.text-box {
+    width: 100%;
+    text-align: center;
+}
+
+/* Default styles for the text inside the text-box */
+.Cheetha-video-container-mt-0,
+.Ocean-vibe-video-containers-mb-15 {
+    text-align: center;
+}
+
+/* Styles for the OCEAN text */
+.Ocean-vibes-color-primary-video-container {
+    color: rgba(0, 145, 255, 0.088);
+    text-shadow: 0px 8px 8px #1f1f1f71;
+    -webkit-text-stroke: 3px rgb(1, 1, 164);
+    font-weight: bolder;
+    font-family: 'Droid Serif';
+    line-height: 48px;
+    font-size: 15vw;
+}
+
+/* Styles for the Vibes text */
+.Cheetha-color-gray-2-video-container {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Droid Serif';
+    line-height: 48px;
+    font-size: 15vw;
+}
+
+/* Media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .text-box {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .Ocean-vibes-color-primary-video-container,
+    .Cheetha-color-gray-2-video-container {
+        font-size: 26vw; 
+        line-height: 22vw;
+    }
+}
+
+       
+
+
+
+.Cheetha-site-header {
+    padding: 30px 40px 30px;
+    font-size: 120px;
+}
+
+
+.Cheetha-site-header .Cheetha-color-primary {
+    color: #ffffff; 
+    font-weight: bold; 
+}
+
+.Cheetha-site-header .wave-text {
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+.Ocean-vibes-tagline {
+    font-size: 1.5rem;   
+    margin-left: 130px;
+}
+
+
+#Cheetha-video-container {
+    max-height: 560px;
+    overflow: hidden;
+    background-color: #333;
+    
+    position: relative;
+}
+
+#Cheetha-video {
+    width: 100%;
+    height: auto;
+}
+
+#Cheetha-video-control-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    color: #e1e1e1;
+}
+
+/* video text */
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px;
+}
+
+.container-overlap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+
+
+/* start here card menu item styling */
+/* Default styles */
+.Cheetha-nav-item {
+    background-color: #000 !important; 
+    color: white !important; 
+    border-radius: 0;
+}
+.Cheetha-nav-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+.Cheetha-nav-link:hover,
+.Cheetha-nav-link.active {
+    color: white !important; 
+    font-weight: bold !important; 
+}
+.Cheetha-nav-link i {
+    margin-top: 23px;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+}
+
+.Cheetha-main-nav ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Cheetha-main-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.Cheetha-nav-link {
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+}
+.Cheetha-main-nav .Cheetha-nav-link {
+    font-weight: bold; 
+}
+.Cheetha-nav-link-img {
+    margin-top: 0px;
+    width: 60px; 
+    height: 60px;
+    
+}
+.handshake{
+    width: 64px; 
+    height: 64px; 
+}
+.Cheetha-nav-link-icons {    
+    color: white;
+    
+} 
+
+    .Cheetha-nav-item {
+        top:200px;
+        position: absolute;
+        z-index: 2; 
+        color: black; 
+        width: 200px; 
+        height: 200px;
+        border-radius: 0 !important;    
+    }
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;    
+        flex-direction: column;
+        max-width: 100%; 
+    } 
+    .Cheetha-nav-item {
+        left: 2.5%;
+        
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 25.5%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 48.5%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 72%;  
+    }
+    .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        display: none;
+      }
+    
+
+
+
+/* menu title index page media query start here */
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+    .Cheetha-nav-item {
+        top:200px;
+        z-index: 2; 
+        color: black; 
+        width: 200px; 
+        height: 200px; 
+        align-items: center; 
+        text-align: center; 
+      
+    }
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;
+        text-align: center;    
+        max-width: 100%; 
+    } 
+    .Cheetha-nav-link-icons {
+        
+        color: white;
+        
+    } 
+    .Cheetha-nav-item {
+       margin-top: 50%;
+       left: 1%;
+        
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 24%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 47.5%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 70.5%;  
+    }
+
+} 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .Cheetha-nav-item {
+        top:200px;
+        z-index: 2; 
+        color: black; 
+        width: 200px; 
+        height: 200px; 
+        align-items: center; 
+        text-align: center; 
+      
+    }
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;
+        text-align: center;    
+        max-width: 100%; 
+        position: absolute;
+    } 
+    .Cheetha-nav-link-icons {
+        
+        color: white;
+        
+    } 
+    .Cheetha-nav-item {
+       margin-top: 50%;
+       left: -1%;   
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 22.5%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 46%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 70%;  
+    }
+
+}
+@media only screen and (min-width: 901px) and (max-width: 991px) {
+
+    .Cheetha-nav-item {
+        top:200px;
+        z-index: 2; 
+        color: black; 
+        width: 150px; 
+        height: 150px; 
+        align-items: center; 
+        text-align: center; 
+      
+    }
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;
+        text-align: center;    
+        max-width: 100%; 
+        position: absolute;
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .Cheetha-nav-link-icons {
+        color: white;
+        
+    } 
+    .Cheetha-nav-link i {
+        margin-top: 10px;
+        color: white;
+    } 
+    .Cheetha-nav-item {
+       left: -1%;   
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 21.5%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 45.5%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 70%;  
+    }
+
+} 
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+
+    .Cheetha-nav-item {
+        top:200px;
+        z-index: 2; 
+        color: black; 
+        width: 150px; 
+        height: 150px; 
+        align-items: center; 
+        text-align: center; 
+      
+    }
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;
+        text-align: center;    
+        max-width: 100%; 
+        position: absolute;
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .Cheetha-nav-link-icons {
+        
+        color: white;  
+    } 
+    .Cheetha-nav-link i {
+        margin-top: 10px;
+        color: white;
+    } 
+    .Cheetha-nav-item {
+       left: -3%;   
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 20.5%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 44%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 68%;  
+    }
+
+} 
+@media only screen and (min-width: 668px) and (max-width: 800px) {
+
+    .Cheetha-nav-item {
+        top:180px;
+        z-index: 2; 
+        color: black; 
+        width: 130px; 
+        height: 130px; 
+        align-items: center; 
+        text-align: center; 
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    .Cheetha-nav-link {
+        display: flex;
+        align-items: center;
+        text-align: center;    
+        max-width: 100%; 
+        position: relative;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .Cheetha-nav-link-icons {
+        
+        color: white;
+        font-size: 15px;
+        margin-right: 15px;
+    } 
+    .Cheetha-nav-link-img {
+        width: 40px; 
+        height: 40px;   
+    }
+    
+    .Cheetha-nav-link i {
+        margin-top: 5px;
+        color: white;
+        font-size: 40px;
+    } 
+    .Cheetha-nav-item {
+       left: -5%;   
+    }
+
+    .Cheetha-nav-item:nth-child(2) {
+        left: 18%;    
+    }
+
+    .Cheetha-nav-item:nth-child(3) {
+        left: 43%;   
+    }
+
+    .Cheetha-nav-item:nth-child(4) {
+        left: 67%;  
+    }
+
+}
+ @media only screen and (max-width: 667px) {
+    .background-image {
+        display: block;
+      }
+    .Cheetha-main-nav {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        
+    }
+
+    .Cheetha-nav-item {
+        color: black; 
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 10px;
+        height: auto;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 4%;
+    }
+    .Cheetha-nav-link-icons {
+        
+        color: white;
+        font-size: 30px;
+    } 
+    .Cheetha-nav-link-img {
+        margin-top: 10px;
+        width: 100px; 
+        height: 100px;    
+    }
+    .Cheetha-nav-item:nth-child(1) {
+        width: 100%;
+    }
+    .Cheetha-nav-link i {
+        
+        color: white;
+        font-size: 40px;
+    } 
+
+    .Cheetha-nav-link {
+        height: auto;
+    }
+
+    .Cheetha-nav-item:nth-child(2),
+    .Cheetha-nav-item:nth-child(3),
+    .Cheetha-nav-item:nth-child(4) {
+        left: auto;
+        right: 3%;
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    .Cheetha-footer {
+        display: none;
+    }
+} 
+@media only screen and (max-width: 532px) {
+    .Cheetha-nav-item:nth-child(1),
+    .Cheetha-nav-item:nth-child(2),
+    .Cheetha-nav-item:nth-child(3),
+    .Cheetha-nav-item:nth-child(4) {
+        right: 30%;
+        text-align: center;
+        align-items: center;
+    }
+    .Cheetha-nav-link-img {
+        margin-top: 8px;
+        width: 100px; 
+        height: 100px;    
+    }
+}
+
+/*  close here index page menu tiles media query */
+
+
+
+/* start footer style here */
+.Cheetha-footer {
+    height: 100px;
+    background-color: black; 
+    text-align: center;
+    color: white; 
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 10px !important;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.footer-a:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+.footer-span {
+    margin-right: 20px;
+    font-weight: bold;
+    color: white; 
+}
+
+.footer-a {
+    font-weight: bold;
+    color: white; 
+}
+
+.footer-icons {
+    margin-left: 20px;
+    font-weight: bold;
+    color: white; 
+}
+
+@media only screen and (max-width: 600px) {
+    .Cheetha-footer {
+        font-size: 25px !important;
+        font-weight: bold;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #overflow {
+        width: auto; 
+        overflow-y: hidden;
+        overflow-x: auto;
+        white-space: nowrap;
+        margin-top: 4%; 
+    }
+
+    #overflow::-webkit-scrollbar {
+        width: 0; 
+    }
+
+    .footer-span,
+    .footer-a,
+    .footer-icons {
+        margin: 0 10px;
+        white-space: nowrap; 
+    }
+}
+
+/* close here */
+
+
+
+
+
+.Cheetha-close-popup {
+    text-align: right;
+    display: block;
+}
+
+.Cheetha-close-popup i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.Cheetha-row {
+    display: flex;
+}
+
+.Ocean-vibes-col-6 {
+    
+    width: 300px;
+    
+}
+.Ocean-vibes-col-3 {
+    
+    width: 300px;
+    
+}
+
+.Ocean-vibes-intro-pad {
+    padding: 40px 55px 50px; 
+}
+
+
+
+/* text-based popup styling */
+.popup {
+    position: relative;
+    padding: 12px 10px 35px;
+    width:auto;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* 
+
+====== Move-from-top effect ======
+
+*/
+.mfp-move-from-top .mfp-with-anim {
+    opacity: 0;
+    transition: all 0.2s;
+    transform: translateY(-100px);
+}
+.mfp-move-from-top.mfp-bg {
+    opacity: 0;
+    transition: all 0.2s;
+}
+.mfp-move-from-top.mfp-ready .mfp-with-anim {
+    opacity: 1;
+    transform: translateY(0);
+}
+.mfp-move-from-top.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+.mfp-move-from-top.mfp-removing .mfp-with-anim {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+.mfp-move-from-top.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
+button.mfp-arrow {
+    display: none;
+}
+
+
+
+/* Intro */
+
+/* Custom Styles for Popup */
+#intro.popup {
+    background-color:black;
+    color: white;
+    margin: 4% auto; 
+    padding: 20px; 
+    overflow-y: auto; 
+}
+
+#intro .Cheetha-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#intro .Cheetha-close-popup {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+#intro h2.Cheetha-page-title {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+ /* Custom Styles for Content Divs */
+ .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+ .intro-box1 {
+    padding: 10px; 
+    margin: 10%;
+    width: 300px;
+    height: 500px;
+    cursor: pointer;
+    margin: 1rem;    
+    }
+    .intro-box2 {
+        width: 300px;
+        height: 500px;
+        margin: 1rem;   
+        }
+        .intro-box2 {
+            width: 300px;
+            height: 500px;
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            }
+        .intro-box2-img{
+            max-width: 100%;
+            height: 500px;
+            display: block; 
+            display: block;        
+        }
+    
+    .top {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .top ul {
+        display: flex;
+        list-style: none;
+    }
+    article p {
+        font-size: 10px;
+        font-weight: 200;
+        margin-bottom: 1rem;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        
+    }
+    .intro-article{
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    
+/* media query for Introduction page start here */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+        #intro .Cheetha-close-popup {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            top: 25px;
+            right: 20px;
+        }
+        .box-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+        }
+        #intro h2.Cheetha-page-title {
+            margin: 0;
+            text-align: center;
+            width: 100%;
+            font-size: larger;
+            font-size: 40px;
+        }
+
+    
+        .intro-box1,
+        .intro-box2 {
+            width: 90%; 
+            height: auto;
+            text-align: center;
+            align-items: center;
+            height: 500px;
+            margin-left: 5%;
+        }
+        .intro-box2-img {
+            width: 100%; 
+            text-align: center;
+            align-items: center;
+            height: 500px;
+        }
+        .intro-article{
+            margin-top: 10%;
+            margin-bottom: 10%;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            color: black;
+            font-weight: bold;
+            font-family: 'Arial', sans-serif;
+        }
+    }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #intro h2.Cheetha-page-title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #intro .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        top: 25px;
+        right: 20px;
+    }
+    .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .intro-box1,
+    .intro-box2 {
+        width: 90%; 
+        text-align: center;
+        align-items: center;
+        height: 500px;
+        margin-left: 5%;
+    }
+    .intro-box2-img {
+        width: 100%; 
+        height: 500px;
+        
+    }
+    .intro-article{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        height: 350px;
+
+    }
+}
+@media only screen and (min-width: 578px) and (max-width: 767px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #intro .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        top: 25px;
+        right: 20px;
+    }
+    .box-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+    }
+    #intro h2.Cheetha-page-title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+
+    .intro-box1,
+    .intro-box2 {
+        width: 90%; 
+        height: 500px;
+        text-align: center;
+        align-items: center;
+        margin-left: 5%;
+       
+    }
+    .intro-box2-img {
+        width: 100%; 
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin:  0; 
+        
+    }
+    
+    .intro-article{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    #scrolbar-intro {
+        width: 90%;
+        height: 400px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+}
+@media only screen and (min-width: 523px) and (max-width: 577px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #intro .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        top: 25px;
+        right: 20px;
+    }
+    .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px; 
+    }
+    #intro h2.Cheetha-page-title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+
+    .intro-box1,
+    .intro-box2 {
+        width: 90%; 
+        height: auto;
+        text-align: center;
+        align-items: center;
+        height: 500px;
+        margin-left: 5%;
+    }
+    .intro-box2-img {
+        width: 100%; 
+        height: 500px;
+        
+    }
+    .intro-article{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    #scrolbar-intro {
+        width: 90%;
+        height: 400px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 522px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #intro .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        top: 25px;
+        right: 20px;
+    }
+    .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px;  
+    }
+    #intro h2.Cheetha-page-title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+
+    .intro-box1,
+    .intro-box2 {
+        width: 90%; 
+        height: auto;
+        text-align: center;
+        align-items: center;
+        margin-left: 5%;
+        height: 500px;
+    }
+    .intro-box2-img {
+        width: 100%; 
+        height: 500px;
+        
+    }
+    .intro-article{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    #scrolbar-intro {
+        width: 90%;
+        height: 400px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+}
+
+ @media only screen and (max-width: 499px) {
+    #intro.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .intro-box1,
+    .intro-box2 {
+        margin: 10px 0; 
+        text-align: center;
+        align-items: center;
+        height: 500px;
+        width: 100%; 
+        
+    }
+    .intro-box2-img {
+        width: 100%; 
+        height: 500px;
+        
+    }
+    .box-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+         
+    }
+    .intro-article{
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        text-align: left;
+    }
+    #scrolbar-intro {
+        width: 100%;
+        height: 400px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+} 
+/* media query close here for Introduction page */ 
+
+
+
+/* Gallery start here  */
+
+/* Custom Styles for Popup */
+
+#gallery.popup {
+    background-color:black;
+    color: white;
+    margin: 4% auto; 
+    padding: 20px; 
+    position: relative;
+    
+}
+
+#gallery .Cheetha-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#gallery .Cheetha-close-popup {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+#gallery h2.Cheetha-page-title {
+    margin: 0; 
+    text-align: center;
+    width: 100%;
+}
+
+   .menuItems {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+
+    li:last-child {
+        margin-right: 35px; 
+        margin-left: auto; 
+    }
+
+    li {
+        flex: 1;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 20px 0; 
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: 400;
+            transition: all 0.5s ease-in-out;
+            text-transform: uppercase;
+            display: flex; 
+            align-items: center; 
+
+            .Cheetha-gallery-link-icon {
+                margin-right: 10px; 
+                margin-left: 80px;
+                width: 24px;
+                height: 24px; 
+            }
+
+        }
+    }
+}
+
+  
+
+/* Gallery Image Animation  */
+.ps-container {
+  display: block;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.ps-photoset {
+  width: 60%;
+  max-width: 600px;
+  position: relative;
+  margin: 30px auto 0;
+  align-items: center;
+  aspect-ratio: 7/5;
+  left: 150px;
+}
+
+.ps-photoset:hover .ps-photo {
+  transform: rotate(0deg);
+}
+
+.ps-photoset:hover .ps-photo:nth-child(1) {
+    left: 20vw;
+    top: 3vw;
+}
+
+.ps-photoset:hover .ps-photo:nth-child(2) {
+    left: -10vw;
+    top: 3vw;
+}
+
+.ps-photoset:hover .ps-photo:nth-child(3) {
+    left: 5vw;
+    top: -1vw;
+}
+
+.ps-photo {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  transition: 500ms all ease;
+  position: absolute;
+  left: 10%; 
+  transform: translate(-50%, -50%); 
+  transition: 500ms all ease;
+  height: 350px;
+}
+
+.ps-photo:nth-child(1) {
+  transform: rotate(4deg);
+}
+
+.ps-photo:nth-child(2) {
+  transform: rotate(3deg);
+}
+
+.ps-photo:nth-child(3) {
+  transform: rotate(-3deg);
+}
+
+.Ocean-vibes-gallery {
+  flex: 0 0 100%;
+  margin: 0 20px;
+}
+
+.Cheetha-gallery-container {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 500px;
+  margin: 0 auto;
+  background-color: #ecec7f;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.Cheetha-gallery-item {
+  min-width: 80%;
+  max-width: 800px;
+  max-height: 800px;
+  width: 80%;
+
+}
+.Cheetha-gallery-links li a {
+    text-transform: capitalize;
+}
+.Cheetha-gallery-link-icon {
+    width: 24px; 
+    height: 24px; 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #gallery.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .ps-photoset {
+        margin-bottom: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 7/5;
+    }
+  
+    .ps-photo {
+        height: 300px;
+        width: 250px;
+        margin-bottom: 10%;
+          
+        
+    }
+    .ps-photoset {
+        position: relative;
+        margin-left: 20%;
+        text-align: center;
+        align-items: center;
+        aspect-ratio: 7/5;
+        
+      }
+    .menuItems {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        width: 100%;
+
+        li {
+            flex: 1;
+            text-align: center;
+            box-sizing: border-box;
+            margin: 20px 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all 0.5s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%; 
+        }
+
+        .Cheetha-gallery-link-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-sports {
+            margin-left: 0; 
+        }
+
+        .icon-architecture {
+            margin-right: 0; 
+        }
+    }
+  } 
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #gallery.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .ps-photoset {
+        margin-bottom: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 7/5;
+    }
+  
+    .ps-photo {
+        height: 300px;
+        width: 250px;
+        margin-bottom: 10%;
+        margin-top: 5%;    
+    }
+    .ps-photoset {
+        position: relative;
+        margin-left: 13%;
+        text-align: center;
+        align-items: center;
+        aspect-ratio: 7/5;
+        
+      }
+      
+    #gallery .menuItems {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-between; 
+        width: 100%;
+    }
+
+    #gallery .menuItems li {
+        margin: 10px 0;
+        text-align: center;
+        flex: 1;
+
+        a {
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        .Cheetha-gallery-link-icon {
+            width: 24px;
+            height: 24px;
+            
+        }
+        .icon-sports {
+            padding-right: 20%;
+        }
+
+        .icon-architecture {
+            margin-right: 0; 
+        }
+    }
+  } 
+  
+  @media only screen and (min-width: 568px) and (max-width: 767px) {
+    #gallery.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .Cheetha-gallery-container {
+        width: 100%;
+        max-height: 600px;
+        margin: 0 auto;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 3%;
+      }
+    .ps-photoset {
+        margin-bottom: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 7/5;
+    }
+  
+    .ps-photo {
+        height: 400px;
+        width: 250px;
+        margin-top: 5%;
+          
+        
+    }
+    .ps-photoset {
+        position: relative;
+        margin-left: 3%;
+        text-align: center;
+        align-items: center;
+        aspect-ratio: 7/5;
+        
+      }
+    
+    #gallery .menuItems {
+        width: 100%;
+        padding: 0;
+        
+    }
+    #gallery .menuItems li {
+        flex: 0 0 50%;
+        margin: 10px 0;
+        text-align: center;
+
+        a {
+            font-size: 18px;
+        }
+    }
+    .menuItems li a .Cheetha-gallery-link-icon {
+        margin-right: 5px; 
+        margin-left: 0px; 
+    }
+    .icon-nature{ 
+        padding-left: 25%;
+    }
+    .icon-architecture{
+        padding-left: 25%;
+    
+    }
+  } 
+
+  @media only screen and (min-width: 468px) and (max-width: 567px) {
+    #gallery.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .Cheetha-gallery-container {
+        width: 100%;
+        max-height: 800px;
+        margin: 0 auto;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 3%;
+      }
+      .ps-photo {
+        height: 400px;
+        width: 200px;
+           
+    }
+    .ps-photoset {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 7/5;
+        margin-top: 20%;
+    }
+    .ps-photoset {
+        position: relative;
+        margin-left: -45px;
+        text-align: center;
+        align-items: center;
+        aspect-ratio: 7/5;
+        
+      }
+    
+    #gallery .menuItems {
+        width: 100%;
+        padding: 0;
+        
+    }
+    #gallery .menuItems li {
+        flex: 0 0 50%;
+        margin: 10px 0;
+        text-align: center;
+
+        a {
+            font-size: 18px;
+        }
+    }
+    .menuItems li a .Cheetha-gallery-link-icon {
+        margin-right: 5px; 
+        margin-left: 0px; 
+    }
+    .icon-nature{ 
+        padding-left: 20%;
+    }
+    .icon-architecture{
+        padding-left: 20%;
+    
+    }
+  } 
+
+@media only screen and (max-width: 467px) {
+    #gallery.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    
+    }
+    .Cheetha-gallery-container {
+        width: 100%;
+        max-height: 800px;
+        margin: 0 auto;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 3%;
+      }
+      
+    .ps-photoset {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 7/5;
+        margin-top: 30%;
+    }
+  
+    .ps-photo {
+        height: 400px;
+        width: 200px;
+        margin-left: 5%;
+           
+    }
+    .ps-photoset {
+        position: relative;
+        margin-left: -85px;
+        text-align: center;
+        align-items: center;
+        aspect-ratio: 7/5;
+        
+      }
+    
+    #gallery .menuItems {
+        width: 100%;
+        padding: 0;
+        
+    }
+    #gallery .menuItems li {
+        flex: 0 0 50%;
+        margin: 10px 0;
+        text-align: center;
+
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .menuItems {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+    }
+    
+    .menuItems li {
+        flex: 1; 
+        margin: 0 5px; 
+        text-align: center;
+    }
+    
+    .menuItems li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+    
+    .menuItems li a .Cheetha-gallery-link-icon {
+        margin-right: 5px; 
+        margin-left: 50px; 
+    }
+    .icon-nature{ 
+        padding-left: 20%;
+    }
+    .icon-architecture{
+        padding-left: 24%;
+    
+    }
+}
+
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .Cheetha-gallery-link-icon {
+        width: 18px;
+        height: 18px; 
+    }
+}
+
+/*  close here gallery media query here */
+
+
+/* About section start css here */
+
+#about.popup {
+    color: white;
+    margin: 4% auto; 
+    padding: 20px; 
+    background-color: black;
+}
+
+#about .Cheetha-about-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#about .Cheetha-close-popup {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+#about h2.Cheetha-page-title {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.box-container-about{
+    border: 0px solid rgb(15, 14, 14);
+}
+.bg-color{
+    padding: 10px; 
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+    margin: 1rem; 
+    margin: 5%;   
+}
+.bg-color-text{
+    color: black;  
+}
+.Cheetha-about-col{
+    margin: 5%; 
+    width: 450px;
+    height: 500px;
+    cursor: pointer;
+}
+ .Cheetha-about-img{
+    width: 450px;
+    height: 500px;
+    display: block; 
+    display: block;       
+ }
+ .about-article{
+    font-size: 10px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+ }
+/* Media Query start here for About us Page */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #about.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    
+    #about h2.Cheetha-page-title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #about .Cheetha-about-row {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .Cheetha-img {
+        width: 100%; 
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin:  0; 
+    }
+
+    .Cheetha-about-img img {
+        width: 90%;
+        height: 500px;
+    }
+
+    .bg-color {
+        width: 100%; 
+        text-align: center;
+        height: 500px; 
+    }
+
+    .bg-color-text {
+        padding: 25px;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+}
+
+
+@media only screen and (min-width: 468px) and (max-width: 767px) {
+
+    #about.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    
+    #about h2.Cheetha-page-title {
+        margin: 1%;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    
+    #about .Cheetha-about-row {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .Cheetha-img {
+        width: 100%; 
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin:  0; 
+    }
+
+    .Cheetha-about-img img {
+        width: 90%;
+        height: 500px;
+    }
+
+    .bg-color {
+        width: 100%; 
+        text-align: center;
+        height: 500px; 
+    }
+
+    .bg-color-text {
+        padding: 25px;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    #scrolbar-p {
+        width: 90%;
+        height: 500px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+}
+
+
+@media only screen and (max-width: 467px) {
+    #about.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #about h2.Cheetha-page-title {
+        margin: 1%;
+        text-align: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #about .Cheetha-about-row {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 20px; 
+    }
+
+    .Cheetha-img {
+        width: 100%; 
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin:  0; 
+    }
+
+    .Cheetha-about-img img {
+        width: 90%;
+        height: 500px;
+    }
+
+    .bg-color {
+        width: 100%; 
+        text-align: center;
+        height: 500px; 
+    }
+
+    .bg-color-text {
+        padding: 25px;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    #scrolbar-p {
+        width: 90%;
+        height: 500px;
+        overflow-y: scroll; 
+        overflow-x: hidden; 
+    }
+}
+/* Media Query close here for About Us Page */
+
+
+
+
+
+
+
+
+
+.Ocean-vibes-contact-links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.Ocean-vibes-contact-link-icon {
+    margin-right: 15px;
+}
+
+address {
+    font-style: normal;
+}
+
+
+
+@media (max-width: 1264px) {
+    .Cheetha-main-nav ul { 
+        max-width: 976px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .Cheetha-main-nav ul {
+        max-width: 732px;
+    }
+}
+
+@media (max-width: 776px) {
+    .Cheetha-main-nav ul {
+        max-width: 488px;        
+    }
+}
+
+@media (max-width: 532px) {
+    .Cheetha-main-nav ul { 
+        max-width: 244px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Ocean-vibes-testimonial-row {
+        flex-wrap: wrap;
+    }
+    .Ocean-vibes-testimonial-col {
+        flex: 100%;
+        margin-bottom: 50px;
+    }    
+
+    .Ocean-vibes-testimonial-col:last-child {
+        margin-bottom: 0;
+    }
+
+    .Ocean-vibes-testimonial-col-2 {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 635px) {
+    .Ocean-vibes-testimonial-col-2 {
+        flex: 100%;
+    }
+} 
+
+ @media (max-width: 902px) {
+    .Ocean-vibes-gallery {
+        flex: 0 0 50%;
+    }
+    .Cheetha-gallery-right {
+        flex: 0 0 38%;
+    }
+}
+
+@media (max-width: 805px) {
+    .Ocean-vibes-gallery-row {
+        flex-direction: column-reverse;
+    }
+    .Ocean-vibes-gallery {
+        flex: 0 0 100%;
+    }
+    .Cheetha-gallery-right {        
+        flex: 0 0 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Cheetha-gallery-right-inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Cheetha-gallery-links {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .Cheetha-gallery-links li {
+        margin-right: 20px;
+    }
+} 
+
+ @media (max-width: 850px) {
+    .Ocean-vibes-content-row {
+        flex-direction: column;
+    }
+
+    .Ocean-vibes-intro-col-l {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .Ocean-vibes-intro-row {
+        flex-direction: column;
+    }
+
+    .Ocean-vibes-intro-img {
+        max-width: 100%;
+        max-height: none;
+    }
+}
+
+
+
+@media (max-width: 558px) {
+    .Cheetha-site-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .Ocean-vibes-tagline {
+        margin-left: 30px;
+    }
+} 
+
+
+
+/* Testmonials   */
+/* Custom Styles for Popup */
+#testimonials.popup {
+    background-color:black;
+    color: white;
+    margin: 4% auto; 
+    padding: 20px; 
+    overflow-y: auto;
+        
+}
+
+#testimonials .Cheetha-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#testimonials .Cheetha-close-popup {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+#testimonials h2.Cheetha-page-title {
+    margin: 0; 
+    text-align: center;
+    width: 100%;
+}
+.container {        
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.container-icons{
+    color: black;
+    display: flex;
+    margin-left: 10px;    
+}
+.testmonials-h5{
+    color: black;
+    display: flex;
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    margin-right: 10px; 
+    margin-top: 10px;   
+}
+.clientImage img {
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2f;
+}
+.reviewSection {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.reviewItem {
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    margin: 1rem;
+    cursor: pointer;
+    border: 2px solid #2b2b2f;
+    background-color:#ecec7f;
+    transition: all .2s linear;
+}
+
+
+.top {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+}
+
+article p {
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    font-family: system-ui;
+}
+.testimonials-articls{
+    font-size: 10px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+}
+ 
+
+
+/* media query Start here for testimonials page  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #testimonials.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    
+    }
+    #testimonials h2.Cheetha-page-title {
+        margin: 1%; 
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #testimonials .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        margin: 2%; 
+    }
+    .reviewSection{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%; 
+        padding: 20px;  
+    }
+    .reviewSection{
+        align-items: center;
+        justify-content: center; 
+        height: 100%;
+    }
+    .testmonials-h5{
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    .review{
+        text-align: center;
+        align-items: center;
+        padding: 2px;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+       
+    }
+    .clientImage img {
+        width: 90%;
+        height: 150px;
+        
+    }
+    .reviewItem {
+        width: 90%; 
+        height: 350px;
+        margin: 14px; 
+        padding: 0; 
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #testimonials.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    
+    }
+    #testimonials h2.Cheetha-page-title {
+        margin: 1%; 
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #testimonials .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        margin: 2%; 
+    }
+    .reviewSection{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%; 
+    }
+    .reviewSection{
+        align-items: center;
+        justify-content: center; 
+        height: 100%;
+    }
+    .top{
+        font-size: 12px;
+    }
+    
+    .testmonials-h5{
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .review{
+        text-align: left;
+        align-items: center;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+       
+    }
+    .clientImage img {
+        width: 90%;
+        height: 150px;
+        
+    }
+    .reviewItem {
+        width: 90%; 
+        height: 350px;
+        margin: 10px; 
+        padding: 0; 
+    }
+    #scrollbar-horzental {
+        white-space: nowrap; 
+        overflow-x: auto; 
+        overflow-y: hidden; 
+        margin-left: 20px;
+       
+    }
+}
+
+@media only screen and (min-width: 468px) and (max-width: 767px) {
+    #testimonials.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    
+    }
+    #testimonials h2.Cheetha-page-title {
+        margin: 1%; 
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #testimonials .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        margin: 2%; 
+    }
+    .reviewSection {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%; 
+    }
+    .col {
+        width: 100%; 
+    }
+    .top {
+        font-size: 25px;
+    }
+    .testmonials-h5 {
+        font-weight: bold;
+        font-size: 26px; 
+        text-align: center; 
+        align-items: center;
+    }
+    .reviewItem {
+        width: 100%; 
+        height: 400px;
+        margin: 10px 0; 
+    }
+    .review {
+        text-align: center;
+        align-items: center;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    .clientImage img {
+        width: 100%; 
+        height: 300; 
+    }
+    .review-text {
+        margin-left: 0;
+    }   
+}
+
+@media only screen and (max-width: 467px) {
+    #testimonials.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    #testimonials h2.Cheetha-page-title {
+        margin: 1%; 
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        font-size: larger;
+        font-size: 30px;
+    }
+    #testimonials .Cheetha-close-popup {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        margin: 2%; 
+    }
+    .reviewSection {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        width: 100%; 
+    }
+    .col {
+        width: 100%; 
+    }
+    .top {
+        font-size: 25px;
+    }
+    .testmonials-h5 {
+        font-weight: bold;
+        font-size: 25px; 
+        text-align: center; 
+        align-items: center;
+    }
+    .reviewItem {
+        width: 100%; 
+        height: 550px;
+        margin: 10px 0; 
+    }
+    .review {
+        text-align: center;
+        align-items: center;
+        font-size: 23px;
+        color: black;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+    }
+    .clientImage img {
+        width: 100%; 
+        height: 200px; 
+    }
+    .review-text {
+        margin-left: 0;
+    }
+    #scrollbar-horzental {
+        white-space: nowrap; 
+        overflow-x: auto; 
+        overflow-y: hidden; 
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+
+/* media query close here fortestmonials page */
+
+
+
+
+  
+  /* Custom Styles for Popup Contact Us Page */
+#contact.popup {
+    background-color:black;
+    color: white;
+    margin: 4% auto; 
+    padding: 20px; 
+    overflow-y: auto;
+}
+
+#contact .Cheetha-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+#contact .Cheetha-close-popup {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+#contact h2.Cheetha-page-title {
+    margin: 0; 
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center {
+    margin-top: 10%;
+    position: relative;
+    padding: 50px;
+    max-width: 600px; 
+    margin-bottom: 3%;
+    margin-left: 3%;   
+  }
+  
+  .center .inputbox {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+  }
+  
+  .center .inputbox input {
+    width: 100%;
+    border: 5px solid #000;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  textarea {
+    width: 100%;
+    border: 5px solid #000;
+    outline: none;
+    background: none;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .center .inputbox span {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+    transition: 0.6s;
+    font-family: sans-serif;
+  }
+  
+  .center .inputbox input:focus ~ span,
+  .center .inputbox input:valid ~ span {
+    transform: translateX(-13px) translateY(-45px);
+    font-size: 1em;
+  }
+
+  .center .inputbox textarea:focus ~ span,
+  .center .inputbox textarea:valid ~ span {
+    transform: translateX(-13px) translateY(-45px);
+    font-size: 1em;
+  }
+  
+  .center .inputbox [type="submit"] {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border: 5px solid #000;
+    background: #000;
+    color: white;
+     
+  }
+ /* Map Styling */
+.mapouter {
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+    overflow: hidden; 
+}
+
+.mapouter-li {
+    position: relative;
+    margin-left: 10%; 
+    margin-right: 3%;
+    margin-top: 5%;
+    outline: none;
+    padding: 10px;
+    height: 350px;
+    color: #000;
+}
+
+.Cheetha-contact-col {
+    flex: 0 0 50%;
+    padding-left: 40px;  
+}
+
+.Cheetha-contact-col-r {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.row-li{
+    
+    margin-left: 11%; 
+    margin-right: 3%;
+    margin-top: 8%;
+    outline: none;
+    padding: 10px;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #000;
+    max-width: 100%;
+    width: 84%;
+    
+    
+}
+.col-sm-6{
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+    height: 240px;
+
+}
+
+
+/*  Cotact Us page media query start here  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #contact.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    
+    }
+    .Ocean-vibes-contact-row {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+    }
+
+    .Cheetha-contact-col-center {
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        max-width: 800px;
+        padding: 20px; 
+    }
+    .form {
+        width: 100%; 
+        margin: 0 auto; 
+        max-width: 800px;
+        
+    }
+    .Cheetha-contact-col-map{
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        max-width: 720px;
+        padding: 20px; 
+    }
+    .mapouter-li {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0; 
+        border: 2px solid #000;
+        height: 350px;
+
+    }
+    .row-li{
+        border: 2px solid #000;
+        font-size: 1.0em;
+        font-weight: bold;
+        color: #000;
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: center; 
+        margin:  0; 
+    }
+    .col-sm-6{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        height: 250px;
+        
+    }
+    .font-size{
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #contact.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .Ocean-vibes-contact-row {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+    }
+
+    .Cheetha-contact-col-center {
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        padding: 20px; 
+    }
+    .form {
+        width: 100%; 
+        margin: 0 auto; 
+    }
+    .Cheetha-contact-col-map{
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        max-width: 650px;
+        padding: 20px; 
+    }
+    .mapouter-li {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0; 
+        border: 2px solid #000;
+        height: 350px;
+
+    }
+    .row-li{
+        border: 2px solid #000;
+        font-size: 1.0em;
+        font-weight: bold;
+        color: #000;
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: center; 
+        margin:  0; 
+    }
+    .col-sm-6{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        height: 250px;
+        
+    }
+    .font-size{
+        font-size: 10px;
+    }
+}
+
+ @media only screen and (min-width: 468px) and (max-width: 767px) {
+    #contact.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color:black;
+    
+    }
+    .center{
+        width: 90%;
+    }
+    .Ocean-vibes-contact-row {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+    }
+    
+
+    .Cheetha-contact-col-center {
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 20px; 
+    }
+    .form {
+        width: 100%; 
+        margin: 0 auto; 
+        
+    }
+    .Cheetha-contact-col-map{
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 20px; 
+    }
+    .mapouter-li {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0; 
+        border: 2px solid #000;
+        height: 350px;
+
+    }
+    .row-li{
+        border: 2px solid #000;
+        font-size: 1.0em;
+        font-weight: bold;
+        color: #000;
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: center; 
+        margin:  0; 
+    }
+    .col-sm-6{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        height: 250px;
+        
+    }
+    .font-size{
+        font-size: 10px;
+    }
+}  
+
+@media only screen and (max-width: 467px) {
+    #contact.popup {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        overflow-y: auto; 
+        height: 100vh;
+        background-color: black;
+    }
+    .Ocean-vibes-contact-row {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-direction: column;
+            width: 100%; 
+            padding: 20px; 
+    }
+
+    .Cheetha-contact-col-center {
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 20px; 
+    }
+    .form {
+        width: 100%; 
+        margin: 0 auto;   
+    }
+    .Cheetha-contact-col-map{
+        margin: 10px auto; 
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 20px; 
+    }
+    .mapouter-li {
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0; 
+        border: 2px solid #000;
+        height: 350px;
+
+    }
+    .row-li{
+        border: 2px solid #000;
+        font-size: 1.0em;
+        font-weight: bold;
+        color: #000;
+        width: 100%; 
+        height: auto;
+        display: flex;
+        align-items: center; 
+        margin:  0; 
+    }
+    .col-sm-6{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        height: 250px;
+        
+    }
+    .font-size{
+        font-size: 10px;
+    }
+      
+}
+
+
+/* contact page us media qusry close here */
+
+
